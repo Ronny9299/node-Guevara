@@ -1,0 +1,37 @@
+{
+    "name": "guevara",
+    "version": "1.0.0",
+    "description": "Nodejs REST API con JWT y Roles (Autorización y Autenticación) &amp; Mongodb",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --exec npx babel-node src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ronny9299/node-Guevara.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Ronny9299/node-Guevara/issues"
+    },
+    "homepage": "https://github.com/Ronny9299/node-Guevara#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "helmet": "^4.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.0.4",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.15.4",
+        "@babel/core": "^7.15.4",
+        "@babel/node": "^7.15.4",
+        "@babel/preset-env": "^7.15.4",
+        "nodemon": "^2.0.12"
+    }
+}
